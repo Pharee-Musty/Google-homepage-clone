@@ -163,6 +163,7 @@ hr{
     .footer{
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 
     .footer-mid{
@@ -171,6 +172,12 @@ hr{
     hr{
         display: none;
     }
+    .footer-left ul{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+   
 }
 
 
